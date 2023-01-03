@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SohatNotebook.DataService",
+    "\\SohatNotebook.DataService\\Data",
+    "\\SohatNotebook.DataService\\IRepository",
+    "\\SohatNotebook.DataService\\Repository",
+    "\\SohatNotebook.Entities",
+    "\\SohatNotebook.Entities\\bin\\Debug",
+    "\\SohatNotebook.Entities\\DbSet",
+    "\\SohatNotebook.Entities\\Dtos",
+    "\\SohatNotebook.Entities\\Dtos\\Incoming"
+  ],
+  "SelectedNode": "\\SohatNotebook.Entities",
+  "PreviewInSolutionExplorer": false
+}

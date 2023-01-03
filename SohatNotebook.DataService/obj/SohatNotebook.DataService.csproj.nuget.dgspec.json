@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\joao.borges.chagas\\study\\MohamadLawand\\SohatNotebook.DataService\\SohatNotebook.DataService.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\joao.borges.chagas\\study\\MohamadLawand\\SohatNotebook.DataService\\SohatNotebook.DataService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joao.borges.chagas\\study\\MohamadLawand\\SohatNotebook.DataService\\SohatNotebook.DataService.csproj",
+        "projectName": "SohatNotebook.DataService",
+        "projectPath": "C:\\Users\\joao.borges.chagas\\study\\MohamadLawand\\SohatNotebook.DataService\\SohatNotebook.DataService.csproj",
+        "packagesPath": "C:\\Users\\joao.borges.chagas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joao.borges.chagas\\study\\MohamadLawand\\SohatNotebook.DataService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joao.borges.chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hiae/_packaging/cross-org%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\joao.borges.chagas\\study\\MohamadLawand\\SohatNotebook.Entities\\SohatNotebook.Entities.csproj": {
+                "projectPath": "C:\\Users\\joao.borges.chagas\\study\\MohamadLawand\\SohatNotebook.Entities\\SohatNotebook.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\joao.borges.chagas\\study\\MohamadLawand\\SohatNotebook.Entities\\SohatNotebook.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joao.borges.chagas\\study\\MohamadLawand\\SohatNotebook.Entities\\SohatNotebook.Entities.csproj",
+        "projectName": "SohatNotebook.Entities",
+        "projectPath": "C:\\Users\\joao.borges.chagas\\study\\MohamadLawand\\SohatNotebook.Entities\\SohatNotebook.Entities.csproj",
+        "packagesPath": "C:\\Users\\joao.borges.chagas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joao.borges.chagas\\study\\MohamadLawand\\SohatNotebook.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joao.borges.chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hiae/_packaging/cross-org%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
